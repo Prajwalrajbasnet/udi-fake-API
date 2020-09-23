@@ -12,5 +12,41 @@
       "item": "Cellular",
       "styles": { "background": "#00cccc", "color": "#ffffff" }
     }
+  ],
+  "files": [
+    {
+      "id": 1,
+      "name": "Test File 1",
+      "type": "xls",
+      "message": "Missing Data",
+      "errors": []
+    },
+    {
+      "id": 2,
+      "name": "Test File 2",
+      "type": "xls",
+      "message": "Wrong Assay",
+      "errors": []
+    },
+    {
+      "id": 3,
+      "name": "Test File 3",
+      "type": "xls",
+      "message": "Invalid Data",
+      "errors": [
+        "Missing result for compound 'NRX1234' in cell [D5]",
+        "Invalid data type for concentration 'NRX1234' in cell [D7]. Expecting float, found string."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Test File 4",
+      "type": "xls",
+      "message": "Invalid Data",
+      "errors": [
+        "Compound ID missing in cell [D5]",
+        "Invalid data type for concentration 'NRX1234' in cell [D7]. Expecting float, found string."
+      ]
+    }
   ]
 }

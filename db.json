@@ -1,0 +1,16 @@
+{
+  "tags": [
+    {
+      "item": "External",
+      "styles": {
+        "background": "#eaa800",
+        "color": "#ffffff"
+      }
+    },
+    { "item": "Ligase FRET", "styles": { "background": "#7a67ff" } },
+    {
+      "item": "Cellular",
+      "styles": { "background": "#00cccc", "color": "#ffffff" }
+    }
+  ]
+}

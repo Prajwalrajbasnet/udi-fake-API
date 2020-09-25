@@ -7,10 +7,18 @@
         "color": "#ffffff"
       }
     },
-    { "item": "Ligase FRET", "styles": { "background": "#7a67ff" } },
+    {
+      "item": "Ligase FRET",
+      "styles": {
+        "background": "#7a67ff"
+      }
+    },
     {
       "item": "Cellular",
-      "styles": { "background": "#00cccc", "color": "#ffffff" }
+      "styles": {
+        "background": "#00cccc",
+        "color": "#ffffff"
+      }
     }
   ],
   "files": [
@@ -47,6 +55,41 @@
         "Compound ID missing in cell [D5]",
         "Invalid data type for concentration 'NRX1234' in cell [D7]. Expecting float, found string."
       ]
+    }
+  ],
+  "fields": [
+    {
+      "required": true,
+      "label": "Compound ID",
+      "description": "The NRX ID of the compound",
+      "dataType": "String",
+      "columnType": "Compound Id",
+      "labelColumn": "A",
+      "labelRow": 1,
+      "dataColumn": "B",
+      "dataRow": 2
+    },
+    {
+      "required": true,
+      "label": "herG_Method",
+      "description": "The concentration of the compound in u<",
+      "dataType": "Float",
+      "columnType": "hERG_Method",
+      "labelColumn": "C",
+      "labelRow": 1,
+      "dataColumn": "C",
+      "dataRow": 2
+    },
+    {
+      "required": true,
+      "label": "herG IC50[UM]",
+      "description": "The percent inhibition of the compound",
+      "dataType": "Float",
+      "columnType": "hERG_Method[uM]",
+      "labelColumn": "D",
+      "labelRow": 1,
+      "dataColumn": "D",
+      "dataRow": 2
     }
   ]
 }

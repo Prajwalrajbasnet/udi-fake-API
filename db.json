@@ -91,5 +91,21 @@
       "dataColumn": "D",
       "dataRow": 2
     }
+  ],
+
+  "barChart": [
+    [
+      { "label": "Compounds", "type": "string" },
+      { "label": "Molecules", "type": "number" },
+      { "role": "style" }
+    ],
+    ["Avi-STAT6 CF M-250-1sec", 610, "color: #000"],
+    ["Avi-STAT6 FL M -25-1sec", 575, "color: #ff0066"],
+    ["STAT6-Avi FL M-250-1sec", 585, "color: #107f80"],
+    ["Strep Bead only -1sec", 600, "color: #66ccfe"],
+    ["Avi-STAT6 CF M -250-3sec", 595, "color: #000"],
+    ["Avi-STAT6 FL M -25-3sec", 570, "color: #ff0066"],
+    ["STAT6-Avi FL M-250-3sec", 590, "color: #107f80"],
+    ["Strep Bead only -1sec", 580, "color: #66ccfe"]
   ]
 }
